@@ -3,7 +3,11 @@ header {
   width:1300px;
 }
 
-.header{
+.container{
+  width:1300px;
+}
+
+.topbox{
   background-image: url("https://raw.githubusercontent.com/tiy-atlanta-js/Assignments/master/Assignment%2003/assets/header.jpg");
   overflow:auto;
   height: 523px;
@@ -50,15 +54,17 @@ header {
   margin-top:17px;
 }
 
-header h1{
+.topbox h2{
   font-family: 'Open Sans', sans-serif;
   color:white;
   text-align:center;
   display:block;
   font-size:95px;
+  margin-top:140px;
+
 }
 
-header h2{
+.topbox h3{
   font-family: 'Open Sans', sans-serif;
   color:HSLA(204, 82%, 17%, 1);
   margin-top:-85px;
@@ -68,13 +74,73 @@ header h2{
 }
 
 
-.body{
-  /*overflow:auto;*/
-  width:75%
+.middlesection{
+  overflow:auto;
+  height:1080px;
 }
 
-
+.article{
+  width:784px;
+  border:solid;
+  height:882px;
+  float:left;
+}
 
 .article h1 {
-  color:black;
+  color:HSLA(204, 82%, 18%, 1);
+  margin-top: 47px;
+  font-family: 'Oswald', sans-serif;
+  font-size:57px;
+  margin-left:164px;
+  margin-bottom:-11px;
+}
+
+.article section{
+  margin-left:162px;
+  font-family:'Oswald', sans-serif;
+  color:HSLA(205, 8%, 40%, 1);
+}
+
+.byline{
+  margin-bottom:32px;
+
+}
+
+.article .name{
+  font-family:'Oswald', sans-serif;
+  color:HSLA(206, 84%, 38%, 1);
+  font-size:13px;
+}
+
+.article .on{
+  font-family:'Oswald', sans-serif;
+  color:HSLA(206, 18%, 69%, 1);
+  font-size:14px;
+}
+
+.article .date{
+  font-family:'Oswald', sans-serif;
+  color:HSLA(206, 18%, 69%, 1);
+  text-decoration:underline;
+  font-size:14px;
+}
+
+.article img{
+  height:25px;
+  margin-left:164px;
+}
+
+.rightnav{
+float: right;
+border: solid;
+display: block;
+width: 504px;
+height: 882px;
+}
+
+.article blockquote{
+  color:HSLA(206, 84%, 38%, 1);
+  font-family:'Oswald', sans-serif;
+  margin-left: 162px;
+  font-size:22px;
 }

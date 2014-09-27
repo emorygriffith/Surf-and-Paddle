@@ -335,13 +335,13 @@ header {
 
 
 .surfer .surfertext{
-position:absolute;
-margin-top:285px;
-margin-left:5px;
-font-family:'Oswald', sans-serif;
-color: black;
-font-size:28px;
-clear:both;
+  position:absolute;
+  margin-top:285px;
+  margin-left:5px;
+  font-family:'Oswald', sans-serif;
+  color: black;
+  font-size:28px;
+  clear:both;
 }
 
 .surfer:hover .surfertext{

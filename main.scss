@@ -194,7 +194,7 @@ header {
 
 
 
-    .social{
+   .social{
       text-align:center;
       font-family:$font1;
       color:HSLA(206, 18%, 69%, 1);
@@ -207,18 +207,6 @@ header {
       font-size:20px;
       /*margin-top:15px;*/
     }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .threebuttons{
   clear:both;
@@ -238,6 +226,14 @@ header {
 .firstbutton{
   @include button(35px, 155px, $grey);
   display:inline-block;
+
+  &:hover .firstbuttontext{
+    background-color: $lightblue;
+  }
+
+  &:hover .greybox{
+    background-color: $darkblue;
+  }
 }
 
 .greybox{
@@ -245,21 +241,12 @@ header {
   width:35px;
   background-color:$darkgrey;
   float:left;
-}
 
-.greybox img{
+img{
   height:15px;
   margin-left:9px;
   margin-top:9px;
-}
-
-.firstbutton:hover .firstbuttontext{
-  background-color: $lightblue;
-}
-
-.firstbutton:hover .greybox{
-  background-color: $darkblue;
-}
+}}
 
 
 
@@ -341,7 +328,6 @@ header {
 }
 
 
-
 .thirdbuttontext{
 font-family: $font1;
 font-size: 13px;
@@ -352,16 +338,6 @@ float: right;
 height: 29px;
 width: 104px;
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .footer{
@@ -423,33 +399,34 @@ width: 104px;
 
 
 
+
+
 .bottombar{
   background-color:HSLA(204, 82%, 18%, 1);
   height:100px;
   width:1300px;
   float:left;
-}
 
-.bottombar .ironyardlogo{
-  float:left;
-  margin-left:160px;
-  margin-top:30px;
-}
+  .ironyardlogo{
+    float:left;
+    margin-left:160px;
+    margin-top:30px;
+  }
 
-.bottombar .ironyardtext{
-  float:left;
-  margin-top:45px;
-  margin-left:10px;
-  color:HSLA(206, 18%, 69%, 1);
-  font-family: $font1;
-  font-size:12px;
-}
+  .ironyardtext{
+    float:left;
+    margin-top:45px;
+    margin-left:10px;
+    color:HSLA(206, 18%, 69%, 1);
+    font-family: $font1;
+    font-size:12px;
+  }
 
-.bottombar .navitems{
-  float:right;
-  margin-top:45px;
-  margin-right:132px;
-  color:HSLA(206, 18%, 69%, 1);
-  font-family:$font2;
-  font-size:12px;
+  .navitems{
+    float:right;
+    margin-top:45px;
+    margin-right:132px;
+    color:HSLA(206, 18%, 69%, 1);
+    font-family:$font2;
+    font-size:12px;}
 }
